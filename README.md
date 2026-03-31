@@ -1,82 +1,45 @@
-# CodeHelp U Landing
+# CodeHelp U
 
-Landing page enfocada en conversion para un servicio de ayuda en programacion universitaria. El objetivo principal es llevar al visitante a WhatsApp para iniciar una conversacion de venta.
+Landing page de conversion para un servicio de ayuda en programacion universitaria.
+Su objetivo es simple: convertir visitas en conversaciones por WhatsApp.
 
-## Objetivo de la web
+## Presentacion
 
-Flujo de conversion esperado:
+CodeHelp U esta pensado para estudiantes que necesitan avanzar rapido con tareas,
+proyectos o errores de codigo y no quieren perder tiempo buscando soluciones aisladas.
+
+La propuesta de valor es clara:
+
+- Respuesta rapida
+- Apoyo practico
+- Acompanamiento hasta que funcione
+- Contacto directo por WhatsApp
+
+## Enfoque
+
+La pagina prioriza conversion sobre informacion extensa, con un recorrido corto:
 
 QR -> Landing -> WhatsApp -> Conversacion -> Venta
 
-## Tecnologias
+## Que incluye esta landing
 
-- HTML5
-- CSS3
-- JavaScript (vanilla)
+- Hero con propuesta principal
+- Servicios clave para estudiantes
+- Seccion de confianza y evidencia
+- Precios orientativos simples
+- CTA fijo de WhatsApp visible en todo momento
 
-## Estructura del proyecto
+## Stack
 
-- index.html: estructura y contenido de la landing
-- styles.css: estilos responsive (mobile-first)
-- script.js: logica de botones y enlace a WhatsApp
-- public/: recursos multimedia e iconos
+- HTML
+- CSS
+- JavaScript vanilla
 
-## Estado del brief (revision)
+## Ejecutar
 
-- Hero con titulo directo, subtitulo y CTA principal: Cumple
-- Seccion de servicios en cards: Cumple
-- Diferenciacion en formato checklist: Cumple
-- Evidencia (videos / ejemplos): Cumple
-- Refuerzo psicologico: Cumple
-- Precios simples y claros: Cumple
-- CTA final con consulta gratis: Cumple
-- Horario + escasez: Cumple
-- Boton flotante de WhatsApp siempre visible: Cumple
-
-## Personalizacion rapida
-
-1. Cambia numero y mensaje de WhatsApp en script.js:
-
-- WHATSAPP_NUMBER
-- WHATSAPP_MESSAGE
-
-2. Ajusta textos comerciales en index.html:
-
-- Titular principal
-- Beneficios
-- Horario y disponibilidad
-- Precios
-
-3. Sustituye recursos en public/:
-
-- Videos de evidencia
-- Iconos o imagenes
-
-## Ejecutar en local
-
-No requiere dependencias.
-
-1. Clona el repositorio.
+1. Clona este repositorio.
 2. Abre index.html en tu navegador.
-
-Tambien puedes usar una extension tipo Live Server para desarrollo.
-
-## Publicar en GitHub Pages
-
-1. Sube el repositorio a GitHub.
-2. Ve a Settings -> Pages.
-3. En Build and deployment, selecciona Deploy from a branch.
-4. Elige branch main y carpeta /(root).
-5. Guarda cambios y espera la URL publica.
-
-## Nota sobre archivos de video
-
-El proyecto incluye videos MP4 en public/ que pueden hacer pesado el repositorio. Si quieres una publicacion mas ligera:
-
-- Comprime videos antes de subir
-- Usa Git LFS para multimedia pesada
-- O reemplaza por placeholders durante la etapa inicial
 
 ## Licencia
 
-Este proyecto usa licencia MIT. Revisa el archivo LICENSE para mas detalles.
+MIT
