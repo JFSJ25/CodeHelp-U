@@ -518,6 +518,11 @@ body {
     padding: 24px;
   }
 
+  .services-grid {
+    display: grid;
+    gap: 24px;
+  }
+
   .reinforcement-text {
     font-size: 16px;
   }
